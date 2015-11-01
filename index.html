@@ -5,6 +5,9 @@
     <script type="text/javascript" src="js/main.js" charset="UTF-8"></script>
   </head>
   <body>
+    <div style='width:400px; height:20px; background-color: red;'>
+      <div id='now' style='width:0px; height:20px; background-color: black;'></div>
+    </div>
     <div id="showcase" style="width:100px; height:300px"></div>
     <textarea id="input" cols="40" rows="5">
 先週くらいまで、「ハッカーと画家」を読んでいたのですが、その中に、 ベンチャー企業は、2つの選択肢があったら、技術的に難しいほうを選べばいい、 というような記述がありました。
@@ -27,8 +30,9 @@
 
 
     </textarea>
-    <p>
-    <input type="submit" value="解析" onclick="fire()">
+    <div>
+    <input type="submit" value="実行" onclick="fire()">
     <input type="submit" value="クリア" onclick="Clear()">
+    </div>
   </body>
 </html>
